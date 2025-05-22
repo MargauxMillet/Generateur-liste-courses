@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--beige);
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    stroke: var(--black);
+    stroke-width: 2;
+    stroke-linecap: round;
+    fill: none;
+    /* transition: .3s; */
+}
+
+nav a:hover .icon {
+    stroke: var(--orange);
+    /* transition: .3s; */
+}
+
+nav a p {
+    font-family: 'Fredoka';
+    font-size: 16px;
+    position: relative;
+    /* transition: .3s; */
+}
+
+nav a:hover p {
+    color: var(--orange);
+    /* transition: .3s; */
+}
+
+nav .active {
+    cursor: default;
+}
+
+nav .active p {
+    font-weight: 600;
+}
+
+nav .active p::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--black);
+    border-radius: 80px;
+    bottom: 0;
+    left: 0;
+}
+
+nav .active:hover .icon {
+    stroke: var(--black);
+}
+
+nav .active:hover p {
+    color: var(--black);
+}
