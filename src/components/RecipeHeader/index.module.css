@@ -1,0 +1,82 @@
+.header {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 680px;
+    padding: 50px;
+    margin: auto;
+}
+
+.header h1 {
+    font-family: 'Fredoka';
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--orange);
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.recipeInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.recipeInfos > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipeInfos h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.numberPeople {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.numberPeople button{
+    all: unset;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.numberPeople button svg{
+    fill: var(--black);
+    transition: .3s;
+}
+
+.numberPeople button:disabled svg{
+    opacity: .2;
+    cursor: default;
+    transition: .3s;
+}
+
+.ingredientsList {
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    column-gap: 50px;
+}
+
+.ingredientsList li {
+    all: unset;
+    margin-bottom: 5px;
+}
+
+.ingredientsList li p {
+    line-height: 1.4em;
+}

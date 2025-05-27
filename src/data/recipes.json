@@ -2,34 +2,51 @@
     {
         "id": 1,
         "name": "Salade grecque",
-        "category": ["Salade", "Végétarien"],
+        "category": ["Salade", "Végétarien", "Rapide"],
         "time": 15,
         "ingredients": {
             "concombre": 0.5,
             "tomate": 1,
             "feta": 75,
-            "olive": 50,
+            "olives": 50,
             "oignon": 0.5,
             "huile d'olive": 1
+        },
+        "steps": {
+            "1": "Lavez les concombres et les tomates. Coupez les concombres en deux dans le sens de la longueur, puis tranchez chaque moitié en fines demi-rondelles pour obtenir des morceaux uniformes. Ensuite, coupez les tomates en petits dés, en veillant à retirer l’excès de jus pour éviter que la salade ne devienne trop liquide.",
+            "2": "Prenez les oignons, épluchez-les et coupez-les en fines rondelles ou demi-rondelles. ",
+            "3": "Dans un grand saladier, mélangez les concombres, les tomates, les rondelles d’oignon, et les olives. Assurez-vous que les légumes sont bien répartis pour une belle harmonie de saveurs.",
+            "4": "Coupez la feta en cubes réguliers ou émiettez-la légèrement entre vos doigts, selon votre préférence.",
+            "5": "Versez une généreuse cuillère à soupe d’huile d’olive sur les légumes. Si vous le souhaitez, ajoutez une pincée de sel et de poivre, mais soyez modéré car la feta et les olives sont naturellement salées.",
+            "6": "Mélangez la salade avec précaution pour ne pas écraser les ingrédients. Cette salade est encore meilleure lorsqu’elle est dégustée fraîche."
         }
     },
     {
         "id": 2,
         "name": "Gratin dauphinois",
-        "category": ["Au four", "Végétarien"],
+        "category": ["Four", "Végétarien"],
         "time": 70,
         "ingredients": {
-            "pomme de terre": 200,
+            "pommes de terre": 200,
             "crème liquide": 50,
             "emmental râpé": 25,
-            "ail": 1,
+            "gousse d'ail": 1,
             "beurre": 10
+        },
+        "steps": {
+            "1": "Préchauffez le four à 180°C.",
+            "2": "Épluchez soigneusement les pommes de terre pour retirer toute trace de peau. Ensuite, tranchez-les en rondelles très fines, idéalement à l’aide d’une mandoline pour obtenir une épaisseur régulière qui assurera une cuisson homogène.",
+            "3": "Prenez une gousse d’ail, épluchez-la et coupez-la en deux. Frottez le fond et les parois d’un plat à gratin avec l’ail pour imprégner subtilement le plat d’un arôme délicat. Beurrez ensuite le plat pour éviter que les pommes de terre ne collent.",
+            "4": "Disposez une première couche de rondelles de pommes de terre au fond du plat. Assaisonnez légèrement avec du sel, du poivre, et une pincée de muscade fraîchement râpée. Répétez cette opération en alternant les couches jusqu’à épuisement des pommes de terre.",
+            "5": "Versez uniformément la crème liquide sur l’ensemble des pommes de terre. La crème permettra de lier les ingrédients et d’obtenir une texture fondante.",
+            "6": "Saupoudrez généreusement l’emmental râpé sur le dessus pour former une croûte dorée et savoureuse. Ajoutez quelques petites noisettes de beurre pour un résultat encore plus gourmand.",
+            "7": "Enfournez pendant environ 1 heure, jusqu’à ce que le gratin soit doré et fondant. Une fois le gratin cuit, sortez-le du four et laissez-le reposer pendant 5 minutes avant de servir."
         }
     },
     {
         "id": 3,
         "name": "Poulet aux herbes et légumes rôtis",
-        "category": ["Au four"],
+        "category": ["Four"],
         "time": 90,
         "ingredients": {
             "cuisse de poulet": 1,
@@ -37,32 +54,57 @@
             "courgette": 0.5,
             "riz" : 100,
             "huile d'olive": 1
+        },
+        "steps": {
+            "1": "Préchauffez le four à 200°C.",
+            "2": "Lavez les légumes sous l’eau courante. Épluchez les carottes et coupez-les en bâtonnets épais. Coupez également les courgettes en rondelles épaisses pour qu’elles conservent leur texture après cuisson.",
+            "3": "Prenez les cuisses de poulet et badigeonnez-les d’huile d’olive avec vos mains ou un pinceau de cuisine. Assaisonnez généreusement avec du sel, du poivre, du thym, et du romarin.",
+            "4": "Placez les cuisses de poulet au centre d’un plat allant au four. Répartissez les morceaux de légumes tout autour. Ajoutez un filet d’huile d’olive sur les légumes pour éviter qu’ils ne dessèchent pendant la cuisson.",
+            "5": "Enfournez le plat et laissez cuire pendant environ 1h15. Remuez les légumes à mi-cuisson pour qu’ils dorent de manière homogène. Vous pouvez arroser les cuisses de poulet avec son jus de cuisson pour encore plus de saveur.",
+            "6": "Pendant ce temps, faites cuire le riz selon les indications du paquet.",
+            "7": "Sortez le plat du four et laissez-le reposer quelques minutes. Servez les cuisses de poulet accompagnées des légumes rôtis et du riz. Le jus de cuisson peut être utilisé comme sauce."
         }
     },
     {
         "id": 4,
         "name": "Quiche aux épinards et fromage",
-        "category": ["Au four", "Végétarien"],
+        "category": ["Four", "Végétarien"],
         "time": 45,
         "ingredients": {
             "pâte brisée": 1,
-            "épinard": 100,
+            "épinards": 100,
             "fromage de chèvre": 25,
             "crème liquide": 50,
             "oeuf": 1
+        },
+        "steps": {
+            "1": "Préchauffez le four à 180°C.",
+            "2": "Si vous utilisez des épinards frais, lavez-les soigneusement et essorez-les. Faites-les revenir dans une poêle avec une pincée de sel jusqu’à ce qu’ils soient légèrement fondants. Si vous utilisez des épinards surgelés, décongelez-les et pressez-les pour enlever l’excédent d’eau.",
+            "3": "Déroulez la pâte brisée et placez-la dans un moule à tarte. Piquez le fond avec une fourchette pour éviter qu’elle ne gonfle à la cuisson.",
+            "4": "Dans un bol, battez les oeufs avec la crème liquide. Ajoutez une pincée de sel, du poivre, et un soupçon de muscade râpée. Mélangez bien pour obtenir une préparation homogène.",
+            "5": "Répartissez les épinards uniformément sur le fond de tarte. Ajoutez des morceaux de fromage de chèvre, puis versez l’appareil à quiche par-dessus. Assurez-vous que le liquide recouvre bien tous les ingrédients.",
+            "6": "Placez la quiche au four et laissez cuire pendant environ 30 minutes, jusqu’à ce que la garniture soit prise et légèrement dorée.",
+            "7": "Une fois sortie du four, laissez la quiche reposer quelques minutes avant de la couper en parts. Servez avec une salade verte pour un repas équilibré."
         }
     }, 
     {
         "id": 5,
         "name": "Wraps de poulet césar",
-        "category": [],
+        "category": ["Rapide"],
         "time": 20,
         "ingredients": {
             "tortilla": 1,
             "blanc de poulet": 100,
             "salade": 50,
             "parmesan râpé": 15,
-            "crouton": 10
+            "croûtons": 10
+        },
+        "steps": {
+            "1": "Coupez les blancs de poulet en fines lanières ou morceaux. Faites-les cuire dans une poêle antiadhésive avec un filet d’huile d’olive. Assaisonnez avec du sel et du poivre, puis laissez dorer jusqu’à ce qu’ils soient bien cuits.",
+            "2": "Lavez et essorez les feuilles de salade. Découpez-les en morceaux pour qu’elles soient plus faciles à insérer dans le wrap.",
+            "3": "Faites chauffer légèrement la tortilla dans une poêle sèche ou au micro-ondes pendant quelques secondes pour qu’elle soit souple.",
+            "4": "Étalez une cuillère à soupe de sauce César au centre de la tortilla. Ajoutez la salade, les morceaux de poulet, les croûtons, et saupoudrez de parmesan râpé.",
+            "5": "Pliez les bords de la tortilla vers le centre, puis roulez-la bien serrée pour former un wrap. Coupez-le en deux pour une présentation plus élégante, et servez immédiatement."
         }
     },
     {
@@ -71,12 +113,20 @@
         "category": ["Végétarien"],
         "time": 35,
         "ingredients": {
-            "lentille": 50,
+            "lentilles": 50,
             "lait de coco": 100,
             "tomate": 1,
             "oignon": 0.5,
-            "ail": 1,
+            "gousse d'ail": 1,
             "curry": 0.5
+        },
+        "steps": {
+            "1": "Épluchez et émincez les oignons et l’ail. Lavez les tomates, coupez-les en petits dés, et mettez-les de côté.",
+            "2": "Dans une casserole ou une sauteuse, chauffez l’huile végétale à feu moyen. Ajoutez les oignons et l’ail émincés, puis faites-les revenir jusqu’à ce qu’ils soient translucides. Incorporez le curry en poudre et remuez pour libérer ses arômes.",
+            "3": "Versez les lentilles dans la casserole, ajoutez les dés de tomate, et mélangez bien pour enrober les lentilles des épices.",
+            "4": "Versez le lait de coco dans la casserole et complétez avec un peu d’eau si nécessaire pour couvrir les lentilles. Portez à ébullition, puis réduisez le feu pour laisser mijoter.",
+            "5": "Laissez cuire à feu doux pendant 20 à 25 minutes, en remuant de temps en temps pour éviter que les lentilles n’attachent. Si le curry semble trop épais, ajoutez un peu d’eau pour ajuster la consistance.",
+            "6": "Ajoutez du sel et du poivre selon votre goût. Pour une touche de fraîcheur, vous pouvez également ajouter un peu de jus de citron avant de servir."
         }
     }
 ]

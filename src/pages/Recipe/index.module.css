@@ -1,0 +1,24 @@
+.back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: .5;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.back svg {
+    fill: var(--black);
+}
+
+.back:hover {
+    opacity: 1;
+}
+
+.back:hover svg {
+    fill: var(--orange);
+}
+
+.back:hover p {
+    color: var(--orange);
+}
