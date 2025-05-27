@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+}
+
+table {
+    border-spacing: 20px 20px;
+    border-collapse: separate;
+}
+
+thead tr td {
+    padding-left: 10px;
+}
+
+.rowsButtonsContainer {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.minusButton, .plusButton {
+    all: unset;
+    line-height: 1;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.minusButton svg circle, .plusButton svg circle {
+    fill: var(--black);
+    transition: .3s;
+}
+
+.minusButton:hover svg circle, .plusButton:hover svg circle {
+    fill: var(--orange);
+    transition: .3s;
+}
+
+.minusButton svg path, .plusButton svg path {
+    fill: var(--beige);
+}
+
+.minusButton:disabled {
+    cursor: default;
+    opacity: .2;
+}
+
+.minusButton:disabled:hover svg circle {
+    fill: var(--black);
+}

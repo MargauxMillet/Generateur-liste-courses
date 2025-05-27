@@ -1,0 +1,24 @@
+.fullList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 110px;
+}
+
+.typeList {
+    display: flex;
+    gap: 110px;
+}
+
+.emptyList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 110px;
+    padding-top: 40px;
+}
+
+.emptyList div {
+    font-size: 50px;
+    opacity: .2;
+}

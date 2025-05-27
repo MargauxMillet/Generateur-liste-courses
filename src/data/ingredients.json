@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "name": "concombre",
+        "plural": "concombres",
+        "unit": "",
+        "type": "fruit/légume"
+    }, 
+    {
+        "id": 2,
+        "name": "tomate",
+        "plural": "tomates",
+        "unit": "",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 3,
+        "name": "feta",
+        "unit": "g de",
+        "type": "frais"
+    },
+    {
+        "id": 4,
+        "name": "olives",
+        "unit": "g d'",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 5,
+        "name": "oignon",
+        "plural": "oignons",
+        "unit": "",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 6,
+        "name": "huile d'olive",
+        "unit": "c. à soupe d'",
+        "type": "autre"
+    },
+    {
+        "id": 7,
+        "name": "pommes de terre",
+        "unit": "g de",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 8,
+        "name": "crème liquide",
+        "unit": "ml de",
+        "type": "autre"
+    },
+    {
+        "id": 9,
+        "name": "emmental râpé",
+        "unit": "g d'",
+        "type": "frais"
+    },
+    {
+        "id": 10,
+        "name": "gousse d'ail",
+        "plural": "gousses d'ail",
+        "unit": "",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 11,
+        "name": "beurre",
+        "unit": "g de",
+        "type": "frais"
+    },
+    {
+        "id": 12,
+        "name": "cuisse de poulet",
+        "plural": "cuisses de poulet",
+        "unit": "",
+        "type": "protéine"
+    },
+    {
+        "id": 13,
+        "name": "carotte",
+        "plural": "carottes",
+        "unit": "",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 14,
+        "name": "courgette",
+        "plural": "courgettes",
+        "unit": "",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 15,
+        "name": "pâte brisée",
+        "plural": "pâtes brisées",
+        "unit": "",
+        "type": "frais"
+    },
+    {
+        "id": 16,
+        "name": "épinards",
+        "unit": "g d'",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 17,
+        "name": "fromage de chèvre",
+        "unit": "g de",
+        "type": "frais"
+    },
+    {
+        "id": 18,
+        "name": "oeuf",
+        "plural": "oeufs",
+        "unit": "",
+        "type": "autre"
+    },
+    {
+        "id": 19,
+        "name": "tortilla",
+        "plural": "tortillas",
+        "unit": "",
+        "type": "féculent"
+    },
+    {
+        "id": 20,
+        "name": "riz",
+        "unit": "g de",
+        "type": "féculent"
+    },
+    {
+        "id": 21,
+        "name": "blanc de poulet",
+        "unit": "g de",
+        "type": "protéine"
+    },
+    {
+        "id": 22,
+        "name": "salade",
+        "unit": "g de",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 23,
+        "name": "parmesan râpé",
+        "unit": "g de",
+        "type": "frais"
+    },
+    {
+        "id": 24,
+        "name": "croutons",
+        "unit": "g de",
+        "type": "autre"
+    },
+    {
+        "id": 25,
+        "name": "lentilles",
+        "unit": "g de",
+        "type": "fruit/légume"
+    },
+    {
+        "id": 26,
+        "name": "lait de coco",
+        "unit": "ml de",
+        "type": "autre"
+    },
+    {
+        "id": 27,
+        "name": "curry",
+        "unit": "c. à soupe de",
+        "type": "autre"
+    }
+]

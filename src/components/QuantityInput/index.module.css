@@ -1,0 +1,30 @@
+.quantityInput {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
+    background-color: var(--beige);
+    border-radius: 10px;
+    max-height: 60px;
+}
+
+.quantityInput button {
+    all: unset;
+    line-height: 0;
+}
+
+.quantityInput button svg {
+    fill: var(--black);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.quantityInput button:disabled svg {
+    opacity: .2;
+    cursor: default;
+    transition: .3s;
+}
+
+.quantityInput div {
+    font-size: 20px;
+}

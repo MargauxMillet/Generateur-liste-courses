@@ -16,3 +16,23 @@
 a {
     text-decoration: none;
 }
+
+.main {
+    margin-top: 70px;
+}
+
+.button {
+    all: unset;
+    padding: 7px 60px;
+    background-color: var(--orange);
+    color: var(--beige);
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: var(--beige);
+    color: var(--orange);
+}

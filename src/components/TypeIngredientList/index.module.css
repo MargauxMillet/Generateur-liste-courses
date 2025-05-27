@@ -1,0 +1,43 @@
+.typeItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titleContainer {
+    background-color: var(--beige);
+    border-radius: 5px;
+    width: 130px;
+    height: 65px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
+.titleContainer div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 30px;
+    width: 30px;
+}
+
+.titleContainer p {
+    font-family: 'Fredoka';
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.listContainer {
+    max-width: 130px;
+}
+
+li {
+    all: unset;
+    display: block;
+    margin-bottom: 4px;
+}

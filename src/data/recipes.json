@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Salade grecque",
+        "category": ["Salade", "Végétarien"],
+        "time": 15,
+        "ingredients": {
+            "concombre": 0.5,
+            "tomate": 1,
+            "feta": 75,
+            "olive": 50,
+            "oignon": 0.5,
+            "huile d'olive": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "Gratin dauphinois",
+        "category": ["Au four", "Végétarien"],
+        "time": 70,
+        "ingredients": {
+            "pomme de terre": 200,
+            "crème liquide": 50,
+            "emmental râpé": 25,
+            "ail": 1,
+            "beurre": 10
+        }
+    },
+    {
+        "id": 3,
+        "name": "Poulet aux herbes et légumes rôtis",
+        "category": ["Au four"],
+        "time": 90,
+        "ingredients": {
+            "cuisse de poulet": 1,
+            "carotte": 0.5,
+            "courgette": 0.5,
+            "riz" : 100,
+            "huile d'olive": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "Quiche aux épinards et fromage",
+        "category": ["Au four", "Végétarien"],
+        "time": 45,
+        "ingredients": {
+            "pâte brisée": 1,
+            "épinard": 100,
+            "fromage de chèvre": 25,
+            "crème liquide": 50,
+            "oeuf": 1
+        }
+    }, 
+    {
+        "id": 5,
+        "name": "Wraps de poulet césar",
+        "category": [],
+        "time": 20,
+        "ingredients": {
+            "tortilla": 1,
+            "blanc de poulet": 100,
+            "salade": 50,
+            "parmesan râpé": 15,
+            "crouton": 10
+        }
+    },
+    {
+        "id": 6,
+        "name": "Curry de lentilles",
+        "category": ["Végétarien"],
+        "time": 35,
+        "ingredients": {
+            "lentille": 50,
+            "lait de coco": 100,
+            "tomate": 1,
+            "oignon": 0.5,
+            "ail": 1,
+            "curry": 0.5
+        }
+    }
+]

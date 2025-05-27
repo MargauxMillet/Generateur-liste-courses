@@ -48,10 +48,6 @@ nav .active {
     cursor: default;
 }
 
-nav .active p {
-    font-weight: 600;
-}
-
 nav .active p::after {
     content: ' ';
     position: absolute;

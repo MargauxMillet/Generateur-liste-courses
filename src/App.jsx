@@ -11,12 +11,15 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/livre-de-recettes" element={<RecipeBook/>} />
-        <Route path="/recette/:id" element={<Recipe/>} />
-        <Route path="*" element={<Error/>} />
-      </Routes>
+      <div className='main'>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/livre-de-recettes" element={<RecipeBook/>} />
+          <Route path="/recette/:id" element={<Recipe/>} />
+          <Route path="*" element={<Error/>} />
+        </Routes>
+      </div>
+      
     </Fragment>
   )
 }

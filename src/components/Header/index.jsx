@@ -37,7 +37,6 @@ function Header () {
                     </svg>
                     <p>Recettes</p>
                 </Link>
-                
             </nav>
         </header>
     )
