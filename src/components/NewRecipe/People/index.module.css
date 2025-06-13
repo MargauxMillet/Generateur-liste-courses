@@ -1,0 +1,10 @@
+.people .inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.people input {
+    width: 70px;
+    text-align: center;
+}

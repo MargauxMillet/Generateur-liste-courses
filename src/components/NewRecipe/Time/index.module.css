@@ -1,0 +1,31 @@
+.time {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.time h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.time > div {
+    position: relative;
+}
+
+.time p {
+    position: absolute;
+    top: -30px;
+    width: 500px;
+}
+
+.time .inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time input {
+    width: 70px;
+    text-align: center;
+}

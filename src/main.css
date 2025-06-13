@@ -2,6 +2,8 @@
     --orange: #FB9927;
     --beige: #FCF9DA;
     --black: #181715;
+    --red: #D35925;
+    --green: #90B641;
 }
 
 * {
@@ -17,8 +19,13 @@ a {
     text-decoration: none;
 }
 
+input, textarea {
+    outline: none;
+}
+
 .main {
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .button {

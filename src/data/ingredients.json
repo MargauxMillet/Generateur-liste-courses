@@ -17,12 +17,14 @@
         "id": 3,
         "name": "feta",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "frais"
     },
     {
         "id": 4,
         "name": "olives",
         "unit": "g d'",
+        "simpleUnit": "g",
         "type": "fruit/légume"
     },
     {
@@ -36,24 +38,28 @@
         "id": 6,
         "name": "huile d'olive",
         "unit": "c. à soupe d'",
+        "simpleUnit": "c. à soupe",
         "type": "autre"
     },
     {
         "id": 7,
         "name": "pommes de terre",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "fruit/légume"
     },
     {
         "id": 8,
         "name": "crème liquide",
-        "unit": "ml de",
+        "unit": "mL de",
+        "simpleUnit": "mL",
         "type": "autre"
     },
     {
         "id": 9,
         "name": "emmental râpé",
         "unit": "g d'",
+        "simpleUnit": "g",
         "type": "frais"
     },
     {
@@ -67,6 +73,7 @@
         "id": 11,
         "name": "beurre",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "frais"
     },
     {
@@ -101,12 +108,14 @@
         "id": 16,
         "name": "épinards",
         "unit": "g d'",
+        "simpleUnit": "g",
         "type": "fruit/légume"
     },
     {
         "id": 17,
         "name": "fromage de chèvre",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "frais"
     },
     {
@@ -127,48 +136,56 @@
         "id": 20,
         "name": "riz",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "féculent"
     },
     {
         "id": 21,
         "name": "blanc de poulet",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "protéine"
     },
     {
         "id": 22,
         "name": "salade",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "fruit/légume"
     },
     {
         "id": 23,
         "name": "parmesan râpé",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "frais"
     },
     {
         "id": 24,
         "name": "croûtons",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "autre"
     },
     {
         "id": 25,
         "name": "lentilles",
         "unit": "g de",
+        "simpleUnit": "g",
         "type": "fruit/légume"
     },
     {
         "id": 26,
         "name": "lait de coco",
-        "unit": "ml de",
+        "unit": "mL de",
+        "simpleUnit": "mL",
         "type": "autre"
     },
     {
         "id": 27,
         "name": "curry",
         "unit": "c. à soupe de",
+        "simpleUnit": "c. à soupe",
         "type": "autre"
     }
 ]

@@ -1,0 +1,61 @@
+.newRecipeRequired {
+    position: relative;
+    width: fit-content;
+}
+
+.newRecipeRequired::after {
+    content: '*';
+    color: var(--red);
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    line-height: 1.2em;
+    border: 1px solid rgba(53, 43, 31, .2);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid var(--orange);
+    transition: .3s;
+}
+
+.newRecipeButtonsQuant {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.newRecipeButtonsQuant button {
+    all: unset;
+    line-height: 0;
+}
+
+.newRecipeButtonsQuant button svg {
+    fill: var(--black);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.newRecipeButtonsQuant button:disabled svg {
+    opacity: .2;
+    cursor: default;
+    transition: .3s;
+}
+
+.newRecipeError input, .newRecipeError textarea  {
+    border: 2px solid var(--red) !important;
+    transition: .3s;
+}
+
+.newRecipeError p {
+    color: var(--red);
+    line-height: 1.2em;
+    width: fit-content;
+}

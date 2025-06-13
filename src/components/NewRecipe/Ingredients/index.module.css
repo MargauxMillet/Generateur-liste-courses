@@ -1,0 +1,19 @@
+.ingredientsContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.ingredientsContainer h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ingredientsContainer .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonsContainer {
+    margin-top: 10px;
+}

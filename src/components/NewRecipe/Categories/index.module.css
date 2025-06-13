@@ -1,0 +1,34 @@
+.categoriesContainer {
+    align-self: center;
+    display: flex;
+    gap: 30px;
+}
+
+.categoriesItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 72px;
+}
+
+.categoriesItem img {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.categoriesItem input {
+    all: unset;
+    height: 15px;
+    width: 15px;
+    border: 1px solid var(--black);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.categoriesItem input:checked {
+    background-color: var(--black);
+    transition: .3s;
+}

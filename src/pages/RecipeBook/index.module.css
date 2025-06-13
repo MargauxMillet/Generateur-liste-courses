@@ -18,9 +18,53 @@
     background-color: var(--black);
 }
 
+.alertSuccess {
+    background-color: var(--green);
+    width: 1020px;
+    height: 50px;
+    padding: 20px;
+    margin: -50px auto 30px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.alertSuccess p {
+    color: var(--beige);
+    font-weight: 500;
+}
+
 .recipesList {
     display: grid;
     grid-template-columns: repeat(3, 300px);
     gap: 60px;
     justify-content: center;
+}
+
+.newRecipe {
+    background-color: var(--orange);
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.newRecipe svg {
+    fill: var(--beige);
+    transition: .3s;
+}
+
+.newRecipe:hover {
+    background-color: var(--beige);
+    transition: .3s;
+}
+
+.newRecipe:hover svg {
+    fill: var(--orange);
+    transition: .3s;
 }

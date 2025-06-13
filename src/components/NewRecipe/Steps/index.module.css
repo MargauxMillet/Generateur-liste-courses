@@ -1,4 +1,4 @@
-.recipeStepsContainer {
+.stepsContainer {
     margin-top: 70px;
     background-color: var(--beige);
     padding: 70px;
@@ -8,13 +8,13 @@
     gap: 30px;
 }
 
-.recipeStepsContainer h2 {
+.stepsContainer h2 {
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.recipeStepsContainer ol {
+.stepsContainer ol {
     all: unset;
     display: flex;
     flex-direction: column;
@@ -22,13 +22,6 @@
     max-width: 50%;
 }
 
-.recipeStepsContainer ol li {
-    all: unset;
-    display: flex;
-    gap: 25px;
-}
-
-.recipeStepsContainer ol li h3 {
-    font-size: 25px;
-    line-height: 1em;
+.buttonsContainer {
+    margin-left: 40px;
 }

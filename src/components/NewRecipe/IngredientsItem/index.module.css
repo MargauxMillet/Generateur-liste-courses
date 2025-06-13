@@ -1,0 +1,93 @@
+.ingredientsRow {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.ingredientsRow .quantity, .ingredientsRow .ingredient {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredientsRow .unit {
+    padding-bottom: 8px;
+}
+
+.quantity input {
+    width: 70px;
+    text-align: center;
+}
+
+.selectIngredient {
+    padding: 10px;
+    font-size: 16px;
+    width: 180px;
+    height: 45px;
+    line-height: 1.2em;
+    border: 1px solid rgba(53, 43, 31, .2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selectIngredient p, .placeholder p {
+    color: var(--black) !important;
+}
+
+.placeholder p {
+    opacity: .5;
+}
+
+.selectIngredient .arrow {
+    width: 15px;
+    opacity: .5;
+    transition: .3s;
+}
+
+.ingredientError .selectIngredient {
+    border: 2px solid var(--red);
+}
+
+.selectIngredientOpen, .ingredientError .selectIngredientOpen {
+    border: 2px solid var(--orange);
+    border-bottom: 1px solid rgba(53, 43, 31, .2);
+    border-radius: 10px 10px 0 0;
+}
+
+.selectIngredientOpen .arrow {
+    transform: rotate(-180deg);
+    transition: .3s;
+}
+
+.selectIngredientOptions {
+    position: absolute;
+    border: 2px solid var(--orange);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    height: 165px;
+    width: 180px;
+    overflow: scroll;
+    background-color: white;
+    z-index: 1;
+}
+
+.selectIngredientOptions div {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.selectIngredientOptions div:hover {
+    background-color: var(--orange);
+}
+
+.errorsContainer {
+    margin-top: 5px;
+}

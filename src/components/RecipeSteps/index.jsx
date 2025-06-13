@@ -8,7 +8,7 @@ function RecipeSteps({recipe}) {
                 {Object.entries(recipe.steps).map(([step, toDo])=>{
                     return (
                         <li key={step}>
-                            <div>{step}.</div>
+                            <h3>{step}.</h3>
                             <p>{toDo}</p>
                         </li>
                     )

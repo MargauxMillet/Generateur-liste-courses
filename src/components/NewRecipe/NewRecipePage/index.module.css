@@ -1,0 +1,37 @@
+.title {
+    font-family: 'Fredoka';
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .intro {
+    width: 550px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+form .submitButton {
+    width: fit-content;
+    align-self: center;
+    margin-top: 50px;
+}
+
+form .submitButton:disabled {
+    opacity: .5;
+    transition: .3s;
+}
+
+form .submitButton:disabled:hover {
+    color: var(--beige);
+    background-color: var(--orange);
+    cursor: default;
+}
